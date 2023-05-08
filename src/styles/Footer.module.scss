@@ -1,0 +1,19 @@
+@import 'main';
+
+
+.footer{
+  background-color: $mainColor;
+}
+
+.copyText{
+  color:$mainBlue;
+}
+
+.icon{
+    color:$mainOrange;
+    font-size:x-large;
+    + h6{
+      color:$mainBlue;
+      font-family: $headerFont;
+    }
+  }

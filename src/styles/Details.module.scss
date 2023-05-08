@@ -1,0 +1,46 @@
+@import 'main';
+
+.main{
+  position: relative;
+  height: 500px;
+  margin: 0;
+  padding: 0; 
+  opacity: 0.8;
+
+}
+
+
+.infoDiv{
+  position: absolute;
+  margin: 1% 0 0 3%;
+  display: flex; 
+  color:white;
+  
+}
+
+.title{
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 2rem; 
+}
+
+.date{
+  @extend .title; 
+  font-size: medium;
+}
+
+.bgImage{
+  object-fit: cover;
+}
+ 
+.overview{
+  display: block;   
+  font-size:1rem;
+}
+
+.poster{
+  opacity: 1;
+  border-radius: 5px;
+  left:25px;
+  top:25px;
+}

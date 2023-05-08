@@ -1,0 +1,33 @@
+@import 'main';
+
+.body{
+    background-color:$mainColor;
+
+    h6{
+        color:$mainBlue;
+    }
+}
+
+.logo{
+    background-color: $mainLight;
+}
+
+.icon{
+    color:$mainOrange;
+    font-size: xx-large;
+    margin-right: 10px;
+    + h4{ 
+      font-weight: 800;
+      font-family: $headerFont;
+    }
+  }
+
+.circle{
+    color:$mainOrange;
+    font-size: medium;
+    margin-right: 5px;
+}
+
+.nav-item > a{
+    text-decoration:none;
+}
