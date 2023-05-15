@@ -2,7 +2,12 @@
  
 
 .main{
-    flex: 1 1 auto; 
+    margin-top: 0.125rem;
+    margin-right: 16px;
+    height: 19rem;
+    min-width: 180px;
+    cursor: pointer;
+    display: flex;
 
 }
 
@@ -10,3 +15,12 @@
     font-size:larger;
     color: $mainOrange;
 }
+
+.title{
+    font-family: $headerFont; 
+    text-transform: uppercase;
+    background-color: $mainLight;
+    padding: 10px;
+    border-left: $mainColor 1px solid;
+    font-weight: 600;
+ }

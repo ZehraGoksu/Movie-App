@@ -4,7 +4,6 @@ import {BiRadioCircle} from 'react-icons/bi'
 import { useSearchParams } from "next/navigation";
 import style from "../styles/Categories.module.scss";
 import Header from "@/components/Header"; 
-import { BASE_URL,API_KEY } from "../../config";
 
 const Categories = ({result}) => {
   const searchParams = useSearchParams();

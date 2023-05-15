@@ -14,9 +14,9 @@ const MovieCard = ({ result }) => {
 
   return (
 
-    <div className={style.main} 
+    <div className="col"
     onClick={handleClick}>
-      <div className="d-flex flex-wrap">
+      <div className="m-0 p-0">
       <Image
         className="object-fit-cover rounded-3"
         width={170}

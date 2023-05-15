@@ -13,8 +13,7 @@ const Genres = async () => {
    
    const url = await list.json();
    
-
-   console.log("generies"+url);
+ 
 
   return (
     <div className='d-flex align-items-center flex-wrap gap-3'>
